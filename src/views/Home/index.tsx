@@ -79,7 +79,7 @@ const Home: React.FC = () => {
         innerProps={{ style: HomeSectionContainerStyles }}
         background="D3D3D3"
         index={2}
-        hasCurvedDivider={false}
+        hasCurvedDivider={true}
       >
         
         <SalesSection {...swapSectionData} />
@@ -88,7 +88,7 @@ const Home: React.FC = () => {
         innerProps={{ style: HomeSectionContainerStyles }}
         background="#D3D3D3"
         index={2}
-        hasCurvedDivider={false}
+        hasCurvedDivider={true}
       >
         
         <SalesSection {...earnSectionData} />
@@ -99,7 +99,7 @@ const Home: React.FC = () => {
         innerProps={{ style: HomeSectionContainerStyles }}
         background="#D3D3D3"
         index={2}
-        hasCurvedDivider={false}
+        hasCurvedDivider={true}
       >
         <SalesSection {...cakeSectionData} />
      
@@ -108,7 +108,7 @@ const Home: React.FC = () => {
         innerProps={{ style: HomeSectionContainerStyles }}
         background="#D3D3D3"
         index={2}
-        hasCurvedDivider={false}
+        hasCurvedDivider={true}
       >
         <Footer />
       </PageSection>
