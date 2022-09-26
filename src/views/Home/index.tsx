@@ -52,10 +52,10 @@ const Home: React.FC = () => {
         background={
           theme.isDark
             ? "#FFFFFF"
-            : 'linear-gradient(139.73deg, #D3D3D3 0%, #D3D3D3 100%)'
+            : "#D3D3D3"
         }
         index={2}
-        hasCurvedDivider={true}
+        hasCurvedDivider={false}
       >
         {account && (
           <UserBannerWrapper>
