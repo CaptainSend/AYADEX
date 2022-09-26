@@ -101,7 +101,7 @@ const Hero = () => {
             {t('AYA IS FOR EVERYONE')}
           </Heading>
           <Heading scale="md" mb="24px">
-            {t('Ayadex is made to offer every project in BSC staking. No more launches without a utility.')}
+            {t('Bringing staking utility to every token on BSC.')}
           </Heading>
          
           
