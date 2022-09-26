@@ -55,7 +55,7 @@ const Home: React.FC = () => {
             : 'linear-gradient(139.73deg, #D3D3D3 0%, #D3D3D3 100%)'
         }
         index={2}
-        hasCurvedDivider={false}
+        hasCurvedDivider={true}
       >
         {account && (
           <UserBannerWrapper>
