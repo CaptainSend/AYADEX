@@ -66,9 +66,18 @@ const Home: React.FC = () => {
         <Hero />
       </StyledHeroSection>
       
-      <PageSection
+      {/* <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
         background={theme.colors.background}
+        index={2}
+        hasCurvedDivider={false}
+      >
+        
+        <SalesSection {...swapSectionData} />
+      </PageSection> */}
+      <PageSection
+        innerProps={{ style: HomeSectionContainerStyles }}
+        background="D3D3D3"
         index={2}
         hasCurvedDivider={false}
       >
@@ -77,7 +86,7 @@ const Home: React.FC = () => {
       </PageSection>
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
-        background="#FFFFFF"
+        background="#D3D3D3"
         index={2}
         hasCurvedDivider={false}
       >
@@ -88,7 +97,7 @@ const Home: React.FC = () => {
      
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
-        background="#FFFFFF"
+        background="#D3D3D3"
         index={2}
         hasCurvedDivider={false}
       >
@@ -97,7 +106,7 @@ const Home: React.FC = () => {
       </PageSection>
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
-        background="#FFFFFF"
+        background="#D3D3D3"
         index={2}
         hasCurvedDivider={false}
       >
