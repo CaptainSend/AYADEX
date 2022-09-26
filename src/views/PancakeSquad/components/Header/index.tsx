@@ -21,7 +21,7 @@ import {
 } from './styles'
 import { PancakeSquadHeaderType } from './types'
 
-const DEFAULT_BERRIES_COST = 15
+const DEFAULT_AYA_COST = 15
 const DEFAULT_MAX_TICKETS = 10
 
 const PancakeSquadHeader: React.FC<PancakeSquadHeaderType> = ({
@@ -77,15 +77,15 @@ const PancakeSquadHeader: React.FC<PancakeSquadHeaderType> = ({
         {`${t('Public Sale:')} 08:00 UTC, Oct. 7`}
       </Text>
       <Text color={lightColors.warning} textAlign="center" bold>
-        {t('Mint Cost: %minCost% BERRIES each', {
-          minCost: DEFAULT_BERRIES_COST,
+        {t('Mint Cost: %minCost% AYA each', {
+          minCost: DEFAULT_AYA_COST,
         })}
       </Text>
       <Text color={lightColors.warning} textAlign="center" bold>
         {t('Max per wallet: %maxPerWallet%', { maxPerWallet: DEFAULT_MAX_TICKETS })}
       </Text>
       <Text color={lightColors.invertedContrast} textAlign="center">
-        {t('BearSwap’s first official generative NFT collection.')}
+        {t('Ayadex’s first official generative NFT collection.')}
       </Text>
       <Text color={lightColors.invertedContrast} mb={!displayEventBlock ? '80px' : '32px'} textAlign="center">
         {t('Join the squad.')}

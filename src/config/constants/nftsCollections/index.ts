@@ -1,7 +1,7 @@
 import { Collections, CollectionKey } from './types'
 
 const collections: Collections = {
-  [CollectionKey.PANBERRIES]: {
+  [CollectionKey.PANAYA]: {
     name: 'Pancake Bunnies',
     slug: 'pancake-bunnies',
     address: {
@@ -11,7 +11,7 @@ const collections: Collections = {
   },
   [CollectionKey.SQUAD]: {
     name: 'Pancake Squad',
-    description: "BearSwap's first official generative NFT collection.. Join the squad.",
+    description: "Ayadex's first official generative NFT collection.. Join the squad.",
     slug: 'pancake-squad',
     address: {
       56: '0x0a8901b0E25DEb55A87524f0cC164E9644020EBA',

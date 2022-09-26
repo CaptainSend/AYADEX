@@ -60,7 +60,7 @@ const TradingViewChart = ({
     if (!(inputCurrency?.symbol && outputCurrency?.symbol)) {
       return null
     }
-    const prefix = 'BearSwap:'
+    const prefix = 'Ayadex:'
     const input = bnbToWBNBSymbol(inputCurrency.symbol)
     const output = bnbToWBNBSymbol(outputCurrency.symbol)
     return `${prefix}${input}${output}`

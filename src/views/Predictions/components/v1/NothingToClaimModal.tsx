@@ -75,7 +75,7 @@ const CollectRoundWinningsModal: React.FC<InjectedModalProps> = ({ onDismiss }) 
 
     anchor.href = URL.createObjectURL(blob)
     anchor.target = '_blank'
-    anchor.download = 'BearSwap-prediction-v1-history.csv'
+    anchor.download = 'Ayadex-prediction-v1-history.csv'
 
     document.body.appendChild(anchor)
     anchor.click()

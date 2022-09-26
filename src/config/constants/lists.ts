@@ -1,12 +1,12 @@
-const PANBERRIES_EXTENDED = 'https://tokens.pancakeswap.finance/pancakeswap-extended.json'
-const PANBERRIES_TOP100 = 'https://tokens.pancakeswap.finance/pancakeswap-top-100.json'
+const PANAYA_EXTENDED = 'https://tokens.pancakeswap.finance/pancakeswap-extended.json'
+const PANAYA_TOP100 = 'https://tokens.pancakeswap.finance/pancakeswap-top-100.json'
 
 export const UNSUPPORTED_LIST_URLS: string[] = []
 
 // lower index == higher priority for token import
 export const DEFAULT_LIST_OF_LISTS: string[] = [
-  PANBERRIES_TOP100,
-  PANBERRIES_EXTENDED,
+  PANAYA_TOP100,
+  PANAYA_EXTENDED,
   ...UNSUPPORTED_LIST_URLS, // need to load unsupported tokens as well
 ]
 

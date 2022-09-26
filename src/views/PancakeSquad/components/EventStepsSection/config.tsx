@@ -36,7 +36,7 @@ const stepsConfigBuilder = ({ t, userInfos, eventInfos, userStatus, account, the
         eventStatus: [SaleStatusEnum.Pending, SaleStatusEnum.Premint],
       }),
       title: t('Activate your profile'),
-      bodyText: [t('You’ll need an active BearSwap Profile to buy Minting Tickets and mint a Pancake Squad NFT!')],
+      bodyText: [t('You’ll need an active Ayadex Profile to buy Minting Tickets and mint a Pancake Squad NFT!')],
       buttons: (
         <>
           <ActivateProfileButton userStatus={userStatus} t={t} />
@@ -51,17 +51,17 @@ const stepsConfigBuilder = ({ t, userInfos, eventInfos, userStatus, account, the
         hasProfileActivated,
         eventStatus: [SaleStatusEnum.Pending, SaleStatusEnum.Premint],
       }),
-      title: t('Hold BERRIES'),
-      bodyText: [t('Each NFT costs BERRIES to mint. Remember you also need BNB to cover transaction fees too!')],
+      title: t('Hold AYA'),
+      bodyText: [t('Each NFT costs AYA to mint. Remember you also need BNB to cover transaction fees too!')],
       buttons: (
         <>
           <Button
             as="a"
-            href="https://BearSwap.net/swap?outputCurrency=0xf0F80C9fA32DcE1bA3Baf60E3697E3542044dE8c"
+            href="https://Ayadex.io/swap?outputCurrency=0xd4F9e9708574D97E80c01efC3308Ae1eB6C5E383"
             target="_blank"
             width="100%"
           >
-            {t('Buy BERRIES')}
+            {t('Buy AYA')}
           </Button>
         </>
       ),

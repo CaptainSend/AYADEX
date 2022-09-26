@@ -20,7 +20,7 @@ export const swapSectionData: SalesSectionProps = {
 
 export const earnSectionData: SalesSectionProps = {
   headingText: 'High-Yield Passive Income',
-  bodyText: 'BearSwap incentivizes liquidity providers with high yield farms and pools as a reward for securing the BearSwap protocol',
+  bodyText: 'Ayadex incentivizes liquidity providers with high yield farms and pools as a reward for securing the Ayadex protocol',
   reverse: true,
   primaryButton: {
     to: '/farms',
@@ -39,18 +39,18 @@ export const earnSectionData: SalesSectionProps = {
 export const cakeSectionData: SalesSectionProps = {
   headingText: 'Community Voting',
   bodyText:
-    'BearSwap is governed by its community members who can create & vote on important token proposals',
+    'Ayadex is governed by its community members who can create & vote on important token proposals',
   reverse: false,
   primaryButton: {
-    to: '/swap?outputCurrency=0xf0F80C9fA32DcE1bA3Baf60E3697E3542044dE8c',
-    text: 'Buy BERRIES',
+    to: '/swap?outputCurrency=0xd4F9e9708574D97E80c01efC3308Ae1eB6C5E383',
+    text: 'Buy AYA',
     external: false,
   },
 
   images: {
     path: '/images/home/',
     attributes: [
-      { src: '/images/home/YuklaBNB.png', alt: 'BERRIES token' }
+      { src: '/images/home/YuklaBNB.png', alt: 'AYA token' }
     ],
   },
 }

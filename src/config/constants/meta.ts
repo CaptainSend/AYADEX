@@ -2,10 +2,10 @@ import { ContextApi } from 'contexts/Localization/types'
 import { PageMeta } from './types'
 
 export const DEFAULT_META: PageMeta = {
-  title: 'BearSwap',
+  title: 'Ayadex',
   description:
-    'The most popular AMM on BSC by user count! Earn BERRIES through yield farming or win it in the Lottery, then stake it in BERRIES Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by BearSwap), NFTs, and more, on a platform you can trust.',
-  image: 'https://BearSwap.net/images/hero.png',
+    'The most popular AMM on BSC by user count! Earn AYA through yield farming or win it in the Lottery, then stake it in AYA Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by Ayadex), NFTs, and more, on a platform you can trust.',
+  image: 'https://Ayadex.io/images/hero.png',
 }
 
 export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
@@ -33,106 +33,106 @@ export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
   switch (basePath) {
     case '/':
       return {
-        title: `${t('Home')} | ${t('BearSwap')}`,
+        title: `${t('Home')} | ${t('Ayadex')}`,
       }
     case '/swap':
       return {
-        title: `${t('Exchange')} | ${t('BearSwap')}`,
+        title: `${t('Exchange')} | ${t('Ayadex')}`,
       }
     case '/add':
       return {
-        title: `${t('Add Liquidity')} | ${t('BearSwap')}`,
+        title: `${t('Add Liquidity')} | ${t('Ayadex')}`,
       }
     case '/remove':
       return {
-        title: `${t('Remove Liquidity')} | ${t('BearSwap')}`,
+        title: `${t('Remove Liquidity')} | ${t('Ayadex')}`,
       }
     case '/liquidity':
       return {
-        title: `${t('Liquidity')} | ${t('BearSwap')}`,
+        title: `${t('Liquidity')} | ${t('Ayadex')}`,
       }
     case '/find':
       return {
-        title: `${t('Import Pool')} | ${t('BearSwap')}`,
+        title: `${t('Import Pool')} | ${t('Ayadex')}`,
       }
     case '/competition':
       return {
-        title: `${t('Trading Battle')} | ${t('BearSwap')}`,
+        title: `${t('Trading Battle')} | ${t('Ayadex')}`,
       }
     case '/prediction':
       return {
-        title: `${t('Prediction')} | ${t('BearSwap')}`,
+        title: `${t('Prediction')} | ${t('Ayadex')}`,
       }
     case '/prediction/leaderboard':
       return {
-        title: `${t('Leaderboard')} | ${t('BearSwap')}`,
+        title: `${t('Leaderboard')} | ${t('Ayadex')}`,
       }
     case '/farms':
       return {
-        title: `${t('Farms')} | ${t('BearSwap')}`,
+        title: `${t('Farms')} | ${t('Ayadex')}`,
       }
     case '/farms/auction':
       return {
-        title: `${t('Farm Auctions')} | ${t('BearSwap')}`,
+        title: `${t('Farm Auctions')} | ${t('Ayadex')}`,
       }
     case '/pools':
       return {
-        title: `${t('Pools')} | ${t('BearSwap')}`,
+        title: `${t('Pools')} | ${t('Ayadex')}`,
       }
     case '/lottery':
       return {
-        title: `${t('Lottery')} | ${t('BearSwap')}`,
+        title: `${t('Lottery')} | ${t('Ayadex')}`,
       }
     case '/ifo':
       return {
-        title: `${t('Initial Farm Offering')} | ${t('BearSwap')}`,
+        title: `${t('Initial Farm Offering')} | ${t('Ayadex')}`,
       }
     case '/teams':
       return {
-        title: `${t('Leaderboard')} | ${t('BearSwap')}`,
+        title: `${t('Leaderboard')} | ${t('Ayadex')}`,
       }
     case '/voting':
       return {
-        title: `${t('Voting')} | ${t('BearSwap')}`,
+        title: `${t('Voting')} | ${t('Ayadex')}`,
       }
     case '/voting/proposal':
       return {
-        title: `${t('Proposals')} | ${t('BearSwap')}`,
+        title: `${t('Proposals')} | ${t('Ayadex')}`,
       }
     case '/voting/proposal/create':
       return {
-        title: `${t('Make a Proposal')} | ${t('BearSwap')}`,
+        title: `${t('Make a Proposal')} | ${t('Ayadex')}`,
       }
     case '/info':
       return {
-        title: `${t('Overview')} | ${t('BearSwap Info & Analytics')}`,
-        description: 'View statistics for BearSwap exchanges.',
+        title: `${t('Overview')} | ${t('Ayadex Info & Analytics')}`,
+        description: 'View statistics for Ayadex exchanges.',
       }
     case '/info/pools':
       return {
-        title: `${t('Pools')} | ${t('BearSwap Info & Analytics')}`,
-        description: 'View statistics for BearSwap exchanges.',
+        title: `${t('Pools')} | ${t('Ayadex Info & Analytics')}`,
+        description: 'View statistics for Ayadex exchanges.',
       }
     case '/info/tokens':
       return {
-        title: `${t('Tokens')} | ${t('BearSwap Info & Analytics')}`,
-        description: 'View statistics for BearSwap exchanges.',
+        title: `${t('Tokens')} | ${t('Ayadex Info & Analytics')}`,
+        description: 'View statistics for Ayadex exchanges.',
       }
     case '/nfts':
       return {
-        title: `${t('Overview')} | ${t('BearSwap')}`,
+        title: `${t('Overview')} | ${t('Ayadex')}`,
       }
     case '/nfts/collections':
       return {
-        title: `${t('Collections')} | ${t('BearSwap')}`,
+        title: `${t('Collections')} | ${t('Ayadex')}`,
       }
     case '/nfts/profile':
       return {
-        title: `${t('Your Profile')} | ${t('BearSwap')}`,
+        title: `${t('Your Profile')} | ${t('Ayadex')}`,
       }
     case '/pancake-squad':
       return {
-        title: `${t('Pancake Squad')} | ${t('BearSwap')}`,
+        title: `${t('Pancake Squad')} | ${t('Ayadex')}`,
       }
     default:
       return null

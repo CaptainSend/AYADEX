@@ -100,7 +100,7 @@ const Footer = () => {
           {t('No registration needed.')}
         </Text>
 
-        <Link external href="https://BearSwap.gitbook.io/">
+        <Link external href="https://Ayadex.gitbook.io/">
           {t('Learn how to start')}
         </Link>
         {!account && <ConnectWalletButton mt="24px" />}

@@ -20,7 +20,7 @@ const StyledCardHeader: React.FC<{
   isStaking?: boolean
 }> = ({ earningToken, stakingToken, isFinished = false, isAutoVault = false, isStaking = false }) => {
   const { t } = useTranslation()
-  const isCakePool = earningToken.symbol === 'BERRIES' && stakingToken.symbol === 'BERRIES'
+  const isCakePool = earningToken.symbol === 'AYA' && stakingToken.symbol === 'AYA'
   const background = isStaking ? 'bubblegum' : 'cardHeader'
 
   const getHeadingPrefix = () => {
@@ -41,7 +41,7 @@ const StyledCardHeader: React.FC<{
       return t('Automatic restaking')
     }
     if (isCakePool) {
-      return t('Earn BERRIES, stake BERRIES')
+      return t('Earn AYA, stake AYA')
     }
     return t('Stake %symbol%', { symbol: stakingToken.symbol })
   }

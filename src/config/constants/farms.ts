@@ -9,10 +9,10 @@ const farms: SerializedFarmConfig[] = [
    */
    {
     pid: 0,
-    lpSymbol: 'BERRIES',
+    lpSymbol: 'AYA',
     lpAddresses: {
       97: '0x9C21123D94b93361a29B2C2EFB3d5CD8B17e0A9e',
-      56: '0xf0F80C9fA32DcE1bA3Baf60E3697E3542044dE8c',
+      56: '0xd4F9e9708574D97E80c01efC3308Ae1eB6C5E383',
     },
     token: serializedTokens.syrup,
     quoteToken: serializedTokens.wbnb,
@@ -20,7 +20,7 @@ const farms: SerializedFarmConfig[] = [
   ,
   {
     pid: 1,
-    lpSymbol: 'BERRIES-BNB LP',
+    lpSymbol: 'AYA-BNB LP',
     lpAddresses: {
       97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
       56: '0xFa7334b8Bc53F31f0944a48f9c5480e586Be48A8',

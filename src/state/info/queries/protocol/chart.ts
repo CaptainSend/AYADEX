@@ -10,7 +10,7 @@ import { fetchChartData, mapDayData } from '../helpers'
 /**
  * Data for displaying Liquidity and Volume charts on Overview page
  */
-const PANBERRIES_DAY_DATAS = gql`
+const PANAYA_DAY_DATAS = gql`
   query overviewCharts($startTime: Int!, $skip: Int!) {
     pancakeDayDatas(first: 1000, skip: $skip, where: { date_gt: $startTime }, orderBy: date, orderDirection: asc) {
       date
@@ -22,7 +22,7 @@ const PANBERRIES_DAY_DATAS = gql`
 
 const getOverviewChartData = async (skip: number): Promise<{ data?: ChartEntry[]; error: boolean }> => {
   try {
-    const { pancakeDayDatas } = await request<PancakeDayDatasResponse>(INFO_CLIENT, PANBERRIES_DAY_DATAS, {
+    const { pancakeDayDatas } = await request<PancakeDayDatasResponse>(INFO_CLIENT, PANAYA_DAY_DATAS, {
       startTime: PCS_V2_START,
       skip,
     })

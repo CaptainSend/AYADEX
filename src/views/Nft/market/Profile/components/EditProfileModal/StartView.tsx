@@ -54,7 +54,7 @@ const StartPage: React.FC<StartPageProps> = ({ goToApprove, goToChange, goToRemo
   const hasMinimumCakeRequired = fetchStatus === FetchStatus.SUCCESS && cakeBalance.gte(minimumCakeRequired)
 
   /**
-   * Check if the wallet has the required BERRIES allowance to change their profile pic or reactivate
+   * Check if the wallet has the required AYA allowance to change their profile pic or reactivate
    * If they don't, we send them to the approval screen first
    */
   useEffect(() => {
@@ -81,7 +81,7 @@ const StartPage: React.FC<StartPageProps> = ({ goToApprove, goToChange, goToRemo
         <Text as="p" color="failure">
           {!isProfileCostsLoading &&
             !hasMinimumCakeRequired &&
-            t('%minimum% BERRIES required to change profile pic', { minimum: formatBigNumber(minimumCakeRequired) })}
+            t('%minimum% AYA required to change profile pic', { minimum: formatBigNumber(minimumCakeRequired) })}
         </Text>
       </Flex>
       {profile.isActive ? (

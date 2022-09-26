@@ -18,7 +18,7 @@ import Column, { AutoColumn } from '../Layout/Column'
 import { ListLogo } from '../Logo'
 import Row, { RowFixed, RowBetween } from '../Layout/Row'
 import { CurrencyModalView } from './types'
-import BERRIESlogo from '../../style/logo.png'
+import AYAlogo from '../../style/logo.png'
 
 
 function listVersionLabel(version: Version): string {
@@ -97,13 +97,13 @@ const ListRow = memo(function ListRow({ listUrl }: { listUrl: string }) {
     <RowWrapper active={isActive} key={listUrl} id={listUrlRowHTMLId(listUrl)}>
       {tooltipVisible && tooltip}
       {list.logoURI ? (
-        <img  style={{ marginRight: '1rem',height:"40px"}} src={BERRIESlogo} alt={`${list.name} list logo`} />
+        <img  style={{ marginRight: '1rem',height:"40px"}} src={AYAlogo} alt={`${list.name} list logo`} />
       ) : (
         <div style={{ width: '24px', height: '24px', marginRight: '1rem' }} />
       )}
       <Column style={{ flex: '1' }}>
         <Row>
-          <Text bold>BearSwap Extended</Text>
+          <Text bold>Ayadex Extended</Text>
         </Row>
         <RowFixed mt="4px">
           <Text fontSize="12px" mr="6px" textTransform="lowercase">

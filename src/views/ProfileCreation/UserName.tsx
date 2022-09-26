@@ -269,7 +269,7 @@ const UserName: React.FC = () => {
       </Button>
       {!hasMinimumCakeRequired && (
         <Text color="failure" mt="16px">
-          {t('A minimum of %num% BERRIES is required', { num: formatUnits(REGISTER_COST) })}
+          {t('A minimum of %num% AYA is required', { num: formatUnits(REGISTER_COST) })}
         </Text>
       )}
     </>

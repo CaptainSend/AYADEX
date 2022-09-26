@@ -51,11 +51,11 @@ const FarmsPoolsRow = () => {
 
   const getPoolText = (pool: DeserializedPool) => {
     if (pool.isAutoVault) {
-      return t('Auto BERRIES')
+      return t('Auto AYA')
     }
 
     if (pool.sousId === 0) {
-      return t('Manual BERRIES')
+      return t('Manual AYA')
     }
 
     return t('Stake %stakingSymbol% - Earn %earningSymbol%', {
@@ -68,7 +68,7 @@ const FarmsPoolsRow = () => {
     <div ref={observerRef}>
       <Flex flexDirection="column" mt="24px">
         <Flex mb="24px">
-          <RowHeading text={showFarms ? t('Top Farms') : t('Top BERRIES Pools')} />
+          <RowHeading text={showFarms ? t('Top Farms') : t('Top AYA Pools')} />
           <IconButton
             variant="text"
             height="100%"

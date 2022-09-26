@@ -17,7 +17,7 @@ const artistConfigBuilder = ({ t, isDark }: ArtistConfigType) => ({
     t('‘Twas full of rabbits, who caught her attention'),
     t('Making neat stuff beyond her comprehension'),
     t('The bunnies were working in a big ol’ kitchen'),
-    t('Cooking hot BERRIES for their big ol’ mission:'),
+    t('Cooking hot AYA for their big ol’ mission:'),
     t('To drizzle in syrup and hand them out soon'),
     t('So that bunnies worldwide may fly to the moon.'),
   ],

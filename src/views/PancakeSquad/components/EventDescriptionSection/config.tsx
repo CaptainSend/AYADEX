@@ -36,7 +36,7 @@ const eventDescriptionConfigBuilder = ({ t }: EventDescriptionType) => ({
     },
   ],
   primaryButton: {
-    to: 'https://BearSwap.gitbook.io/BearSwap/',
+    to: 'https://Ayadex.gitbook.io/Ayadex/',
     text: t('View Documentation'),
     external: true,
     isDisplayed: false,

@@ -39,7 +39,7 @@ const CanceledRoundCard: React.FC<CanceledRoundCardProps> = ({ round }) => {
               {t('Round Canceled')}
             </Text>
             {isRefundable && <ReclaimPositionButton epoch={epoch} onSuccess={handleSuccess} width="100%" my="8px" />}
-            <LinkExternal href="https://BearSwap.gitbook.io/BearSwap/products/prediction" external>
+            <LinkExternal href="https://Ayadex.gitbook.io/Ayadex/products/prediction" external>
               {t('Learn More')}
             </LinkExternal>
           </Flex>

@@ -104,7 +104,7 @@ const NextDrawCard = () => {
             fontSize="14px"
             color="textSubtle"
             textAlign={['center', null, null, 'left']}
-            unit=" BERRIES"
+            unit=" AYA"
             value={getBalanceNumber(amountCollectedInDexToken)}
             decimals={0}
           />

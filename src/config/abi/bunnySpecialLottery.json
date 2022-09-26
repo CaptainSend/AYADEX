@@ -3,7 +3,7 @@
     "inputs": [
       {
         "internalType": "address",
-        "name": "_BearSwapLotteryAddress",
+        "name": "_AyadexLotteryAddress",
         "type": "address"
       },
       {
@@ -535,10 +535,10 @@
   },
   {
     "inputs": [],
-    "name": "BearSwapLottery",
+    "name": "AyadexLottery",
     "outputs": [
       {
-        "internalType": "contract IBearSwapLottery",
+        "internalType": "contract IAyadexLottery",
         "name": "",
         "type": "address"
       }

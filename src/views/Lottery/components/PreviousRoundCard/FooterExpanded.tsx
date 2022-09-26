@@ -74,7 +74,7 @@ const PreviousRoundCardFooter: React.FC<{ lotteryNodeData: LotteryRound; lottery
           <Balance
             fontSize="14px"
             color="textSubtle"
-            unit=" BERRIES"
+            unit=" AYA"
             value={getBalanceNumber(lotteryNodeData?.amountCollectedInDexToken)}
             decimals={0}
           />

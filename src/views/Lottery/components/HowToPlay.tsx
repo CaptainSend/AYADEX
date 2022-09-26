@@ -218,7 +218,7 @@ const HowToPlay: React.FC = () => {
     {
       label: t('Step %number%', { number: 1 }),
       title: t('Buy Tickets'),
-      subtitle: t('Prices are set when the round starts, equal to 5 USD in BERRIES per ticket.'),
+      subtitle: t('Prices are set when the round starts, equal to 5 USD in AYA per ticket.'),
     },
     {
       label: t('Step %number%', { number: 2 }),
@@ -300,7 +300,7 @@ const HowToPlay: React.FC = () => {
           <BulletList>
             <li>
               <Text display="inline" color="textSubtle">
-                {t('100% of the BERRIES paid by people buying tickets that round goes back into the prize pools.')}
+                {t('100% of the AYA paid by people buying tickets that round goes back into the prize pools.')}
               </Text>
             </li>
           </BulletList>
@@ -311,22 +311,22 @@ const HowToPlay: React.FC = () => {
             <li>
               <Text display="inline" color="textSubtle">
                 {t(
-                  'After every round, if nobody wins in one of the prize brackets, the unclaimed BERRIES for that bracket rolls over into the next round and are redistributed among the prize pools.',
+                  'After every round, if nobody wins in one of the prize brackets, the unclaimed AYA for that bracket rolls over into the next round and are redistributed among the prize pools.',
                 )}
               </Text>
             </li>
           </BulletList>
           <Heading my="16px" scale="md">
-            {t('BERRIES Injections')}
+            {t('AYA Injections')}
           </Heading>
           <BulletList>
             <li>
               <Text display="inline" color="textSubtle">
                 {t(
-                  'An average total of 35,000 BERRIES from the treasury is added to lottery rounds over the course of a week. This BERRIES is of course also included in rollovers! Read more in our guide to ',
+                  'An average total of 35,000 AYA from the treasury is added to lottery rounds over the course of a week. This AYA is of course also included in rollovers! Read more in our guide to ',
                 )}
-                <InlineLink href="https://BearSwap.gitbook.io/BearSwap-documentation/tokenomics/BERRIES">
-                  {t('BERRIES Tokenomics')}
+                <InlineLink href="https://Ayadex.gitbook.io/Ayadex-documentation/tokenomics/AYA">
+                  {t('AYA Tokenomics')}
                 </InlineLink>
               </Text>
             </li>
@@ -345,8 +345,8 @@ const HowToPlay: React.FC = () => {
           </Heading>
           <Text>
             {t('Check our in-depth guide on')}{' '}
-            <InlineLink href="https://BearSwap.gitbook.io/BearSwap-documentation/products/lottery/how-to-play-lottery">
-              {t('how to play the BearSwap lottery!')}
+            <InlineLink href="https://Ayadex.gitbook.io/Ayadex-documentation/products/lottery/how-to-play-lottery">
+              {t('how to play the Ayadex lottery!')}
             </InlineLink>
           </Text>
         </Flex>

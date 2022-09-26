@@ -28,7 +28,7 @@ const PrizesCard = () => {
       <Box p="24px">
         <Text color="textSubtle" fontSize="14px">
           {t(
-            'Prizes to be distributed in BERRIES and shared by all members of a tier. BERRIES price in USD to be determined on the day of distribution. Details below.',
+            'Prizes to be distributed in AYA and shared by all members of a tier. AYA price in USD to be determined on the day of distribution. Details below.',
           )}
         </Text>
       </Box>

@@ -156,12 +156,12 @@ const fetchUnclaimedUserRewards = async (
       return { ...roundData, finalNumber: getWinningNumbersForRound(roundData.roundId, lotteriesData) }
     })
 
-    const winningTicketsForPBERRIESunds = await Promise.all(
+    const winningTicketsForPAYAunds = await Promise.all(
       roundDataAndWinningTickets.map((roundData) => getWinningTickets(roundData)),
     )
 
     // Filter out null values (returned when no winning tickets found for past round)
-    const roundsWithWinningTickets = winningTicketsForPBERRIESunds.filter(
+    const roundsWithWinningTickets = winningTicketsForPAYAunds.filter(
       (winningTicketData) => winningTicketData !== null,
     )
 

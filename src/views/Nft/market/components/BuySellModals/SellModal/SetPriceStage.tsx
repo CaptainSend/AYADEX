@@ -56,7 +56,7 @@ const SetPriceStage: React.FC<SetPriceStageProps> = ({
       {creatorFeeAsNumber > 0 && (
         <Text>{t('%percentage%% royalties to the collection owner', { percentage: creatorFee })}</Text>
       )}
-      <Text>{t('%percentage%% trading fee will be used to buy & burn BERRIES', { percentage: tradingFee })}</Text>
+      <Text>{t('%percentage%% trading fee will be used to buy & burn AYA', { percentage: tradingFee })}</Text>
     </>,
     { placement: 'auto' },
   )
@@ -152,7 +152,7 @@ const SetPriceStage: React.FC<SetPriceStageProps> = ({
             {t('The NFT will be removed from your wallet and put on sale at this price.')}
           </Text>
           <Text small color="textSubtle">
-            {t('Sales are in WBNB. You can swap WBNB to BNB 1:1 for free with BearSwap.')}
+            {t('Sales are in WBNB. You can swap WBNB to BNB 1:1 for free with Ayadex.')}
           </Text>
         </Box>
       </Grid>

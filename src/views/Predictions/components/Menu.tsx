@@ -75,7 +75,7 @@ const Menu = () => {
             <Button
               variant="subtle"
               as="a"
-              href="https://BearSwap.gitbook.io/BearSwap/products/prediction"
+              href="https://Ayadex.gitbook.io/Ayadex/products/prediction"
               target="_blank"
               rel="noreferrer noopener"
               width="48px"

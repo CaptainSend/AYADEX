@@ -4978,7 +4978,7 @@ var links = [
                 href: "/",
             },
             {
-                label: "BERRIES Pools",
+                label: "AYA Pools",
                 href: "/",
             },
         ],

@@ -27,7 +27,7 @@ const DetailsView: React.FC<DetailsViewProps> = ({
     <ModalInner mb="0">
       <Text as="p" mb="24px" fontSize="14px" color="textSubtle">
         {t(
-          'Your voting power is determined by the amount of BERRIES you held at the block detailed below. BERRIES held in other places does not contribute to your voting power.',
+          'Your voting power is determined by the amount of AYA you held at the block detailed below. AYA held in other places does not contribute to your voting power.',
         )}
       </Text>
       <Text color="secondary" textTransform="uppercase" mb="4px" bold fontSize="14px">
@@ -50,25 +50,25 @@ const DetailsView: React.FC<DetailsViewProps> = ({
       </Flex>
       <Flex alignItems="center" justifyContent="space-between" mb="4px">
         <Text color="textSubtle" fontSize="16px">
-          {t('Manual BERRIES Pool')}
+          {t('Manual AYA Pool')}
         </Text>
         <Text textAlign="right">{formatNumber(cakePoolBalance, 0, 3)}</Text>
       </Flex>
       <Flex alignItems="center" justifyContent="space-between" mb="4px">
         <Text color="textSubtle" fontSize="16px">
-          {t('Auto BERRIES Pool')}
+          {t('Auto AYA Pool')}
         </Text>
         <Text textAlign="right">{formatNumber(cakeVaultBalance, 0, 3)}</Text>
       </Flex>
       <Flex alignItems="center" justifyContent="space-between" mb="4px">
         <Text color="textSubtle" fontSize="16px">
-          {t('Other BERRIES Pools')}
+          {t('Other AYA Pools')}
         </Text>
         <Text textAlign="right">{formatNumber(poolsBalance, 0, 3)}</Text>
       </Flex>
       <Flex alignItems="center" justifyContent="space-between" mb="4px">
         <Text color="textSubtle" fontSize="16px">
-          {t('BERRIES BNB LP')}
+          {t('AYA BNB LP')}
         </Text>
         <Text textAlign="right">{formatNumber(cakeBnbLpBalance, 0, 3)}</Text>
       </Flex>

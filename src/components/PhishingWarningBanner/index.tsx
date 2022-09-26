@@ -44,8 +44,8 @@ const PhishingWarningBanner: React.FC = () => {
   const { t } = useTranslation()
   const [, hideBanner] = usePhishingBannerManager()
   const { isMobile, isMd } = useMatchBreakpoints()
-  const warningText = t("please make sure you're visiting https://BearSwap.net - check the URL carefully.")
-  const warningTextAsParts = warningText.split(/(https:\/\/BearSwap.net)/g)
+  const warningText = t("please make sure you're visiting https://Ayadex.io - check the URL carefully.")
+  const warningTextAsParts = warningText.split(/(https:\/\/Ayadex.io)/g)
   const warningTextComponent = (
     <>
       <Text as="span" color="warning" small bold textTransform="uppercase">
@@ -57,8 +57,8 @@ const PhishingWarningBanner: React.FC = () => {
           key={i}
           small
           as="span"
-          bold={text === 'https://BearSwap.net'}
-          color={text === 'https://BearSwap.net' ? '#FFFFFF' : '#BDC2C4'}
+          bold={text === 'https://Ayadex.io'}
+          color={text === 'https://Ayadex.io' ? '#FFFFFF' : '#BDC2C4'}
         >
           {text}
         </Text>

@@ -34,7 +34,7 @@ const useGetProfileCosts = () => {
         })
         setIsLoading(false)
       } catch (error) {
-        toastError(t('Error'), t('Could not retrieve BERRIES costs for profile'))
+        toastError(t('Error'), t('Could not retrieve AYA costs for profile'))
       }
     }
 

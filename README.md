@@ -1,6 +1,6 @@
-# BearSwap Frontend
+# Ayadex Frontend
 
 
-This project contains the main features of the BearSwap application.
+This project contains the main features of the Ayadex application.
 
 

@@ -8,14 +8,14 @@ const config = (t: ContextApi['t']) => {
         t(
           'Trades are settled in WBNB, which is a wrapped version of BNB used on Binance Smart Chain. That means that when you sell an item, WBNB is sent to your wallet instead of BNB.',
         ),
-        t('You can instantly swap your WBNB for BNB with no trading fees on BearSwap.'),
+        t('You can instantly swap your WBNB for BNB with no trading fees on Ayadex.'),
       ],
     },
     {
       title: t('When can I trade other NFT Collections?'),
       description: [
         t(
-          'Soon! The current NFT Market is a basic version (phase 1), with early access to trading BearSwap NFTs only.',
+          'Soon! The current NFT Market is a basic version (phase 1), with early access to trading Ayadex NFTs only.',
         ),
         t('Other collections will be coming soon. We’ll make an announcement soon about the launch of the V2 Market.'),
       ],
@@ -25,7 +25,7 @@ const config = (t: ContextApi['t']) => {
       description: [
         t('In Phase 2 of the NFT Marketplace, collections must be whitelisted before they may be listed.'),
         t(
-          'We are now accepting applications from NFT collection owners seeking to list their collections. Please apply here: https://BearSwap.gitbook.io/BearSwap/contact-us/nft-market-applications',
+          'We are now accepting applications from NFT collection owners seeking to list their collections. Please apply here: https://Ayadex.gitbook.io/Ayadex/contact-us/nft-market-applications',
         ),
       ],
     },
@@ -33,10 +33,10 @@ const config = (t: ContextApi['t']) => {
       title: t('What are the fees?'),
       description: [
         t(
-          '100% of all platform fees taken by BearSwap from sales are used to buy back and BURN BERRIES tokens in our weekly BERRIES burns.',
+          '100% of all platform fees taken by Ayadex from sales are used to buy back and BURN AYA tokens in our weekly AYA burns.',
         ),
         t(
-          'Platform fees: 2% is subtracted from NFT sales on the market. Subject to change.Collection fees: Additional fees may be taken by collection creators, once those collections are live. These will not contribute to the BERRIES burns.',
+          'Platform fees: 2% is subtracted from NFT sales on the market. Subject to change.Collection fees: Additional fees may be taken by collection creators, once those collections are live. These will not contribute to the AYA burns.',
         ),
       ],
     },
