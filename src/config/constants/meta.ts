@@ -4,8 +4,8 @@ import { PageMeta } from './types'
 export const DEFAULT_META: PageMeta = {
   title: 'Ayadex',
   description:
-    'The most popular AMM on BSC by user count! Earn AYA through yield farming or win it in the Lottery, then stake it in AYA Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by Ayadex), NFTs, and more, on a platform you can trust.',
-  image: 'https://Ayadex.io/images/hero.png',
+    '',
+  image: '',
 }
 
 export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
