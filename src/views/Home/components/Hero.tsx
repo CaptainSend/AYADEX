@@ -118,7 +118,7 @@ const Hero = () => {
         >
           <BunnyWrapper>
             <picture>
-              <img width="95%" style={{margin:"5%",marginTop:"15%"}} src="/logo1.png" alt={t('Lunar bunny')} />
+              <img width="95%" style={{margin:"5%",marginTop:"15%"}} src="/logo.png" alt={t('Lunar bunny')} />
             </picture>
           </BunnyWrapper>
          
