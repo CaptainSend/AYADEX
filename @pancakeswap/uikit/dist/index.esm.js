@@ -2196,7 +2196,7 @@ var templateObject_1$R, templateObject_2$s, templateObject_3$b, templateObject_4
 var PriceLink = styled.a(templateObject_1$Q || (templateObject_1$Q = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd, _b = _a.color, color = _b === void 0 ? "textSubtle" : _b;
-    return cakePriceUsd ? (React__default.createElement(PriceLink, { href: "https://BearSwap.net/swap?outputCurrency=0xf0F80C9fA32DcE1bA3Baf60E3697E3542044dE8c", target: "_blank" },
+    return cakePriceUsd ? (React__default.createElement(PriceLink, { href: "https://Ayadex.io/swap?outputCurrency=0xd4F9e9708574D97E80c01efC3308Ae1eB6C5E383", target: "_blank" },
         React__default.createElement(Icon$Z, { width: "24px", mr: "8px" }),
         React__default.createElement(Text, { color: color, bold: true }, "$" + cakePriceUsd.toFixed(9)))) : (React__default.createElement(Skeleton, { width: 80, height: 24 }));
 };
@@ -4627,19 +4627,19 @@ var socials = [
     {
         label: "Twitter",
         icon: "Twitter",
-        href: "https://Twitter.com/BEARProtocolXYZ",
+        href: "https://Twitter.com/ayadex",
     },
     {
         label: "Telegram",
         icon: "Telegram",
-        href: "https://T.me/ProtocolBEAR",
+        href: "https://T.me/Ayadex",
         
     }
     ,
     {
         label: "Github",
         icon: "Github",
-        href: "https://github.com/CaptainSend",
+        href: "https://github.com/Kaderv2",
         
     }
     
@@ -4727,7 +4727,7 @@ var MenuItem = function (_a) {
                 React__default.createElement(Flex, { order: [1, null, 2], mb: ["24px", null, "0"], justifyContent: "space-between", alignItems: "center" },
                     React__default.createElement(Box, { mr: "20px" },
                         React__default.createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd, color: darkColors.textSubtle })),
-                    React__default.createElement(Button, { as: "a", href: "https://BearSwap.net/swap?outputCurrency=0xf0F80C9fA32DcE1bA3Baf60E3697E3542044dE8c", target: "_blank", scale: "sm", endIcon: React__default.createElement(Icon$27, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
+                    React__default.createElement(Button, { as: "a", href: "https://Ayadex.io/swap?outputCurrency=0xd4F9e9708574D97E80c01efC3308Ae1eB6C5E383", target: "_blank", scale: "sm", endIcon: React__default.createElement(Icon$27, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
 };
 
 var MenuItems = function (_a) {
@@ -4784,15 +4784,15 @@ var links = [
         items: [
             {
                 label: "Exchange",
-                href: "https://exchange.BearSwap.net",
+                href: "https://exchange.Ayadex.io",
             },
             {
                 label: "Liquidity",
-                href: "https://exchange.BearSwap.net/#/pool",
+                href: "https://exchange.Ayadex.io/#/pool",
             },
             {
                 label: "Charts",
-                href: "https://exchange.BearSwap.net/#/charts",
+                href: "https://exchange.Ayadex.io/#/charts",
                 iconName: "Chart",
                 isMobileOnly: true,
             },
@@ -4812,7 +4812,7 @@ var links = [
                 href: "/",
             },
             {
-                label: "BERRIES Pools",
+                label: "AYA Pools",
                 href: "/",
             },
         ],
@@ -4906,7 +4906,7 @@ var links = [
     },
     {
         type: DropdownMenuItemType.EXTERNAL_LINK,
-        href: "https://BearSwap.net",
+        href: "https://Ayadex.io",
         label: "Link",
     },
     {
@@ -5268,7 +5268,7 @@ var ConnectModal = function (_a) {
                     !showMore && React__default.createElement(MoreWalletCard, { t: t, onClick: function () { return setShowMore(true); } }))),
             React__default.createElement(Box, { p: "24px" },
                 React__default.createElement(Text, { textAlign: "center", color: "textSubtle", as: "p", mb: "16px" }, t("Haven’t got a crypto wallet yet?")),
-                React__default.createElement(Button, __assign({ as: "a", href: "https://BearSwap.gitbook.io/BearSwap/", variant: "subtle", width: "100%" }, getExternalLinkProps()), t("Learn How to Connect"))))));
+                React__default.createElement(Button, __assign({ as: "a", href: "https://Ayadex.gitbook.io/ayadex/", variant: "subtle", width: "100%" }, getExternalLinkProps()), t("Learn How to Connect"))))));
 };
 var templateObject_1$1;
 

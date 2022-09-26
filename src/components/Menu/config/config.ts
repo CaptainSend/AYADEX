@@ -48,8 +48,8 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
     hideSubNav: false,
     items: [
       {
-        label: t('Protocol Website'),
-        href: 'https://ProtocolBEAR.com',
+        label: t('Community'),
+        href: 'https://t.me/ayadex',
         type: DropdownMenuItemType.EXTERNAL_LINK,
       }
     ],
