@@ -52,7 +52,7 @@ const Home: React.FC = () => {
         background={
           theme.isDark
             ? "#FFFFFF"
-            : 'linear-gradient(139.73deg, #E6FDFF 0%, #fff1ef 100%)'
+            : 'linear-gradient(139.73deg, #D3D3D3 0%, #D3D3D3 100%)'
         }
         index={2}
         hasCurvedDivider={false}
