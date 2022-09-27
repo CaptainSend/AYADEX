@@ -1,8 +1,8 @@
 import { SalesSectionProps } from '.'
 
 export const swapSectionData: SalesSectionProps = {
-  headingText: 'The USDB Stablecoin',
-  bodyText: 'With our own stablecoin that is always pegged to Binance USD Stablecoin, helps the protocol to protect liquidity providers impermanent loss',
+  headingText: 'The AYA token',
+  bodyText: 'With our native token AYA, users will be able to stake to earn massive rewards in every blue chip token.',
   reverse: false,
   primaryButton: {
     to: '/swap',
