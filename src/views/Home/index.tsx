@@ -77,7 +77,7 @@ const Home: React.FC = () => {
       </PageSection> */}
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
-        background="D3D3D3"
+        background="#D3D3D3"
         index={2}
         hasCurvedDivider={false}
       >
