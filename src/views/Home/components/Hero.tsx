@@ -106,8 +106,11 @@ const Hero = () => {
          
           
           <Flex>
-            {!account && <ConnectWalletButton mr="8px" />}
-           
+            primaryButton: {
+              to: '/swap',
+              text: 'Trade Now',
+              external: false,
+             },          
           </Flex>
         </Flex>
         <Flex
