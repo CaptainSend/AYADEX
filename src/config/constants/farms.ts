@@ -20,16 +20,14 @@ const farms: SerializedFarmConfig[] = [
   ,
   {
     pid: 1,
-    lpSymbol: 'AYA-BUSD LP',
+    lpSymbol: 'AYA-BNB LP',
     lpAddresses: {
       97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
-      56: '0x386CbC889d96Af74b70312afE5bf78237862a63f',
+      56: '0x7B60BCa8de0Fb526fEC94496c9F1bD036C5222bB',
     },
     token: serializedTokens.cake,
-    quoteToken: serializedTokens.busd,
+    quoteToken: serializedTokens.wbnb,
   }
- 
-
   ,
   {
     pid: 2,
@@ -41,9 +39,6 @@ const farms: SerializedFarmConfig[] = [
     token: serializedTokens.busd,
     quoteToken: serializedTokens.wbnb,
   }
-  ,
-  
-  
   
  
 ]
